@@ -1,0 +1,74 @@
+Last login: Mon Dec  9 18:44:32 on ttys008
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Bens-MBP:~ benmalate$ conda create -n water-pumps python=3
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /Users/benmalate/opt/anaconda3/envs/water-pumps
+
+  added / updated specs:
+    - python=3
+
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    pkgs/main/osx-64::ca-certificates-2019.11.27-0
+  certifi            pkgs/main/osx-64::certifi-2019.11.28-py38_0
+  libcxx             pkgs/main/osx-64::libcxx-4.0.1-hcfea43d_1
+  libcxxabi          pkgs/main/osx-64::libcxxabi-4.0.1-hcfea43d_1
+  libedit            pkgs/main/osx-64::libedit-3.1.20181209-hb402a30_0
+  libffi             pkgs/main/osx-64::libffi-3.2.1-h475c297_4
+  ncurses            pkgs/main/osx-64::ncurses-6.1-h0a44026_1
+  openssl            pkgs/main/osx-64::openssl-1.1.1d-h1de35cc_3
+  pip                pkgs/main/osx-64::pip-19.3.1-py38_0
+  python             pkgs/main/osx-64::python-3.8.0-h359304d_2
+  readline           pkgs/main/osx-64::readline-7.0-h1de35cc_5
+  setuptools         pkgs/main/osx-64::setuptools-42.0.2-py38_0
+  sqlite             pkgs/main/osx-64::sqlite-3.30.1-ha441bb4_0
+  tk                 pkgs/main/osx-64::tk-8.6.8-ha441bb4_0
+  wheel              pkgs/main/osx-64::wheel-0.33.6-py38_0
+  xz                 pkgs/main/osx-64::xz-5.2.4-h1de35cc_4
+  zlib               pkgs/main/osx-64::zlib-1.2.11-h1de35cc_3
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate water-pumps
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) Bens-MBP:~ benmalate$ source activate water-pumps
+(water-pumps) Bens-MBP:~ benmalate$ conda env list
+# conda environments:
+#
+base                     /Users/benmalate/opt/anaconda3
+myenv                    /Users/benmalate/opt/anaconda3/envs/myenv
+python=3                 /Users/benmalate/opt/anaconda3/envs/python=3
+water-pumps           *  /Users/benmalate/opt/anaconda3/envs/water-pumps
+
+(water-pumps) Bens-MBP:~ benmalate$ edit requirements.txt
+-bash: edit: command not found
+(water-pumps) Bens-MBP:~ benmalate$ cd water-pumps
+-bash: cd: water-pumps: No such file or directory
+(water-pumps) Bens-MBP:~ benmalate$ 
+
+
+
+
+
+
+
+
